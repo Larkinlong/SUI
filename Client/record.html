@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm.min.css">
+    <link type="text/css" rel="stylesheet" href="css/reset.css">
+    <link type="text/css" rel="stylesheet" href="css/base.css">
+    <script type='text/javascript' src="js/jquery-1.11.3.min.js"></script>
+    <script type='text/javascript' src='//g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm.min.js' charset='utf-8'></script>
+    <script src="http://cdn.hcharts.cn/highcharts/highcharts.js"></script>
+    <script type='text/javascript' src="js/highcharts.js"></script>
+    <script type='text/javascript' src="js/base.js"></script>
+    <title>体侧记录</title>
+</head>
+<body>
+<div class="page" id="page_record">
+    <header class="bar bar-nav ">
+        <h1 class="title">体侧记录</h1>
+    </header>
+    <div class="content">
+        <ul>
+            <li>
+                <P><span>BMI:100</span><span>体重：50</span><span>脂肪：20%</span></P>
+
+                <P><span>蛋白质：25%</span><span>基础代谢：2000</span><span>2016-2-25</span></P>
+            </li>
+            <li>
+                <P><span>BMI:100</span><span>体重：50</span><span>脂肪：20%</span></P>
+
+                <P><span>蛋白质：25%</span><span>基础代谢：2000</span><span>2016-3-27</span></P>
+            </li>
+        </ul>
+        <div class="trend">
+            <div class="buttons-row">
+                <a href="#tab1" class="tab-link active button">BMI</a>
+                <a href="#tab2" class="tab-link button">体重</a>
+                <a href="#tab3" class="tab-link button">脂肪</a>
+                <a href="#tab4" class="tab-link button">蛋白质</a>
+                <a href="#tab5" class="tab-link button">基础代谢</a>
+            </div>
+
+            <div class="tabs">
+                <div id="tab1" class="tab active">
+                    <div id="chart1"></div>
+                </div>
+                <div id="tab2" class="tab">
+                    <div id="chart2"></div>
+                </div>
+                <div id="tab3" class="tab">
+                    <div id="chart3"></div>
+                </div>
+                <div id="tab4" class="tab">
+                    <div id="chart4"></div>
+                </div>
+                <div id="tab5" class="tab">
+                    <div id="chart5"></div>
+                </div>
+            </div>
+            <div class="content-block"><a href="addrecord.html" class="button button-dark">新增体侧</a></div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

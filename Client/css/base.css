@@ -1,0 +1,149 @@
+#page_index .list-block .item-media{
+    border-right: 1px solid #e7e7e7;
+    padding-right: 0.5rem;
+}
+#page_index .list-block .item-text{
+    padding-top: 0.5rem;
+    color: #ea1e00;
+}
+
+/*detail页面样式*/
+#page_detail .head{
+    height: 150px;
+    padding-top: 10px;
+    background-color: #666;
+}
+#page_detail .head h2{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 50px;
+    margin: 0 auto;
+    line-height: 100px;
+    text-align: center;
+}
+#page_detail .head p{
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 16px;
+}
+#page_detail .item-title{
+    margin: 0 auto;
+}
+#page_detail .item-subtitle{
+    text-align: center;
+}
+
+/*membership页面样式*/
+#page_membership .list-block .item-media{
+    border-right: 1px solid #e7e7e7;
+    padding-right: 0.5rem;
+}
+#page_membership .list-block li{
+    padding-top: 5px;
+}
+#page_membership .list-block .name{
+    float: left;
+    width: 30%;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    border-right: 1px solid #e7e7e7;
+}
+#page_membership .list-block .message{
+    float: left;
+    padding-left: 0.5rem;
+}
+#page_membership .list-block .control{
+    height: 2.35rem;
+    border-top: 1px solid #e7e7e7;
+}
+#page_membership .list-block .control .button{
+    width: 40%;
+    float: left;
+    margin: 0.5rem 5% 0.5rem 5%;
+}
+/*record页面样式*/
+#page_record .content li{
+    width: 100%;
+    border-bottom: 1px solid #999;
+}
+#page_record .content span{
+    display: inline-block;
+    width: 33.33%;
+    padding-left: 3%;
+    border-right: 1px solid #e1e1e1;
+    height: 1.5rem;
+    line-height: 1.5rem;
+}
+#page_record .content .trend{
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    background-color: #fff;
+}
+
+#page_record #chart1,#chart2,#chart3,#chart4,#chart5 {
+    width: 100%;
+    height: 150px;
+    margin: 0 auto;
+}
+
+#page_record .content .trend .highcharts-container {
+    border-radius: 10px;
+    width: 100%;
+    height: 150px;
+}
+#page_record .content .trend .content-block{
+    margin: 0.5rem 0;
+}
+#page_record .content .trend .tabs{
+    width: 100%;
+    height: 150px;
+}
+#page_record .content .trend .tab{
+    margin: 0.5rem 0;
+}
+/*addrecord页面样式*/
+#page_addrecord .content ul{
+    width: 100%;
+    padding-left: 5%;
+}
+#page_addrecord .content ul li{
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    width: 90%;
+    border-bottom: 1px solid #cdcdcd;
+}
+#page_addrecord .content ul li input{
+    border: none;
+    background-color: #eeeeee;
+}
+/*order页面样式*/
+#page_order .content ul{
+    width: 100%;
+    padding-left: 5%;
+}
+#page_order .content ul li{
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    width: 90%;
+    border-bottom: 1px solid #cdcdcd;
+}
+#page_order .content ul li input{
+    border: none;
+}
+#page_order .content .item-inner{
+    padding: 0;
+}
+#page_order .content .item-content{
+    padding: 0;
+}

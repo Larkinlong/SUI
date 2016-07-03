@@ -1,0 +1,268 @@
+#page_index .col-1 {
+    text-align: center;
+    width: 14.28%;
+    border-right: 0.5px solid #9b9b9b;
+    border-bottom: 0.5px solid #cdcdcd;
+}
+
+#page_index .col-1 .week {
+    display: block;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+#page_index .col-1 .date {
+    display: block;
+    font-size: 14px;
+    color: #999;
+    line-height: 30px;
+}
+
+.col-click {
+    background-color: #333333;
+    color: #fff;
+}
+
+#page_index .list-block {
+    margin: 1rem 0;
+}
+
+#page_index .media-list .col-50 {
+    text-align: center;
+    line-height: 30px;
+}
+@media screen and (max-width: 370px){
+    #page_index .media-list .col-50 {
+        font-size: 14px;
+    }
+}
+
+/* orderҳ����ʽ*/
+
+#page_detail .main_photo img {
+    width: 60%;
+}
+
+#page_detail .message {
+    width: 100%;
+    padding: 10px 20px;
+    border-bottom: 1px solid #999;
+}
+
+#page_detail .icon {
+    padding-right: 10px;
+}
+
+#page_detail .introduce {
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #999;
+    line-height: 24px;
+    border-bottom: 1px solid #999;
+}
+
+#page_detail .introduce .heading {
+    display: block;
+    font-size: 16px;
+    color: #000;
+}
+
+#page_detail .evaluate {
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #999;
+    line-height: 24px;
+    border-bottom: 1px solid #999;
+}
+
+#page_detail .evaluate .heading {
+    display: block;
+    font-size: 16px;
+    color: #000;
+    border-bottom: 0.5px solid #999;
+}
+
+#page_detail .evaluate .list {
+    border-bottom: 0.5px solid #cdcdcd;
+}
+
+#page_detail .evaluate .list .username {
+    padding-right: 10px;
+}
+
+#page_detail footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #339900;
+}
+
+#page_detail footer a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* orderҳ����ʽ*/
+#page_order .main_photo img {
+    width: 60%;
+}
+
+#page_order .seat .heading {
+    text-align: center;
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    border-bottom: 0.5px solid #cdcdcd;
+}
+
+#page_order .seat {
+    padding: 10px 20px;
+    font-size: 10px;
+}
+
+#page_order .seat li {
+    margin-top: 20px;
+    width: 20%;
+}
+
+#page_order .introduce {
+    border-bottom: 0.5px solid #cdcdcd;
+}
+
+#page_order .introduce .left {
+    width: 50%;
+    margin-left: 50%;
+}
+
+#page_order .introduce li {
+    margin-top: 10px;
+    width: 33.33%;
+    font-size: 12px;
+    text-align: center;
+}
+
+#page_order .check button {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #339900;
+    border: none;
+    color: #fff;
+    margin-top: 20px;
+}
+
+/* evaluateҳ����ʽ*/
+#page_evaluate .evaluate_yoga {
+    width: 100%;
+    height: 40px;
+    padding-left: 5%;
+    border-top: 10px solid #cdcdcd;
+}
+
+#page_evaluate .left {
+    float: left;
+    width: 200px;
+    height: 40px;
+    position: relative;
+    background: url("../images/1.png") repeat-x;
+    background-size: 40px;
+}
+
+#page_evaluate .left li a {
+    display: block;
+    position: absolute;
+    z-index: 5;
+    width: 40px;
+    height: 40px;
+}
+
+.click {
+    left: 0;
+    background: url('../images/2.png') repeat-x;
+    background-size: 40px;
+}
+
+#page_evaluate .one-star {
+    left: 0
+}
+
+#page_evaluate .two-stars {
+    left: 40px
+}
+
+#page_evaluate .three-stars {
+    left: 80px
+}
+
+#page_evaluate .four-stars {
+    left: 120px
+}
+
+#page_evaluate .five-stars {
+    left: 160px
+}
+
+#page_evaluate .current-rating {
+    background: url("../images/2.png") repeat-x;
+    background-size: 40px;
+    position: absolute;
+    height: 40px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+#page_evaluate p {
+    float: left;
+    line-height: 40px;
+}
+
+#page_evaluate .remark textarea {
+    width: 100%;
+    height: 120px;
+}
+
+#page_evaluate .btn {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    border: none;
+    background-color: #339900;
+    color: #fff;
+    margin-top: 20px;
+    line-height: 40px;
+    border-radius: 5px;
+}
+
+/* login 页面样式*/
+#page_login .main_photo img{
+    width: 100%;
+}
+#page_login input {
+    width: 80%;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    border: 0.5px solid #333333;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+#page_login button{
+    width: 80%;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: #339900;
+    color: #fff;
+}
